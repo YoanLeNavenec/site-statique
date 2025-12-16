@@ -1,0 +1,227 @@
+#body{
+  margin: 0px;
+  font-family: "Monserrat", arial;
+  max-width: 100vw;
+  font-size: 1rem;
+}
+
+#header{
+display: flex;
+flex-direction: row;
+background-color: #152237;
+padding: 28px;
+justify-content: space-between;
+max-width: 100vw;
+}
+
+@media screen and (max-width:768px){
+  #buttonConnec,#buttonInsc, #Formation{
+    display: none;
+  }
+}
+
+@media screen and (max-width:768px){
+#searchBar, #search{
+display: none;
+}}
+
+#Formation{
+  align-self: center;
+}
+
+#Klivio{
+max-width: 84px;
+max-height: 31px;
+top: 25px;
+left: 98px;
+margin-left: 100px;
+}
+
+#searchBar{
+  display: flex;
+  flex-direction: row;
+  border: 1px solid white;
+  border-radius: 5px;
+  width: 477px;
+  height: 40px;
+  justify-content: space-between;
+}
+
+#search{
+    background: transparent;
+    border: none;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    padding-left: 17px;
+}
+
+.search-btn {
+    background: transparent;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 0.4rem;
+    display: flex;
+    align-items: center;
+    padding-right: 10px;
+}
+
+#buttons{
+  display: flex;
+  flex-direction: row;
+  gap: 19px ;
+}
+
+#buttonConnec{
+border: none;
+border-radius: 6px;
+background-color: white;
+max-width: 130px;
+max-height: 40px;
+left: 1300px;
+padding-left: 25px;
+padding-right: 25px;
+}
+
+#buttonInsc{
+border:none;
+border-radius: 6px;
+max-width: 130px;
+max-height: 40px;
+left: 1449px;
+background-image: linear-gradient(to right,#44DD8A, #15B7E2);
+padding-left: 25px;
+padding-right: 25px;
+margin-right: 100px;
+}
+
+#Header{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  background-image: linear-gradient(to right, #44dd8991, #15d8e289), url("./ressources/bg-header.png");
+  background-size:cover;
+  height: 400px;
+  justify-content: center;
+}
+
+@media screen and (max-width:768px) {
+  #Header{
+    background-position: center;
+  }
+}
+
+#SavoirButton{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-self: center;
+}
+
+#SavoirPlus{
+  background-color: white;
+  border: none;
+  border-radius: 6px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+  padding-left:14px;
+  padding-right: 14px;
+  align-self: center;
+}
+
+#TextHeader{
+  align-self: center;
+}
+
+/* 1st section code startin' here */
+.SectionWhite{
+  padding-top: 30px;
+  background-color: white;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding-bottom: 51px;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+#FormPopu{
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+#BoxFormation{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding-top: 34px;
+  max-width: 100vw;
+  justify-content:space-evenly;
+}
+
+.FormBox{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  max-width: 19.18em;
+  max-height: 22.62em;
+  
+}
+
+.Price{
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  background: #152237;
+  border-radius: 93px;
+  max-width: 120px;
+  max-height: 32px;
+  color: white;
+  padding: 5px 8px;
+  align-self: flex-end; 
+}
+
+.checked {
+  color: orange;
+}
+
+#VoirPlusDiv{
+  justify-items: center;
+  margin-top: 2.6rem;
+}
+
+#VoirPlus{
+   max-width: 225px;
+  max-height: 40px;
+  display: flex;
+  border: 0;
+  border-radius: 6px;
+  background: #152237;
+  color: white;
+  padding: 11px 21px;
+  margin: 0.25rem;
+  cursor: pointer;
+}
+
+/* 2eme section */
+.SectionBlack{
+  background-color: #152237;
+  padding-bottom: 51px;
+}
+
+#BoxFormation2{
+  display: flex;
+  flex-direction: row;
+  justify-content:space-evenly;
+  background-color: #152237;
+  max-width: 100vw;
+  margin-left: 100px;
+  margin-right: 100px;
+  
+}
+
