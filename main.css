@@ -286,18 +286,6 @@ main{
 }
 
 /* 3rd section starting here */
-#AvantKlivio{
-  display: flex;
-  flex-direction: column;
-  background-color: #F5F5F5;
-
-}
-
-#AvantKlivio h2{
-  padding-left: 98px;
-  padding-top: 79px;
-  font-weight: 900;
-}
 
 #Avis{
   padding-left: 100px;
@@ -327,6 +315,20 @@ main{
   border-radius: 155px;
 }
 
+/*4th paragraph. let me out ffs*/
+
+#AvantKlivio{
+  display: flex;
+  flex-direction: column;
+  background-color: #F5F5F5;
+
+}
+
+#AvantKlivio h2{
+  padding-left: 98px;
+  font-weight: 900; 
+}
+
 #AvantBox{
   display: flex;
   flex-direction: row;
@@ -353,6 +355,7 @@ padding-bottom: 93px;
 display: flex;
 flex-direction: column;
 background-color: #44DD8A;
+padding-top: 76px;
 }
 
 #FormatBox{
@@ -365,6 +368,77 @@ max-width: 729px;
 max-height: 487px;
 padding-bottom: 93px;
 padding-left: 101px;
-padding-top: 76px;
 padding-right: 78px;
+}
+
+/*5th section here -_- */
+
+#FifthSec{
+display: flex;
+flex-direction: row;
+padding-left: 103px;
+padding-top: 184px;
+padding-bottom: 184px;
+}
+
+#APropKliv{
+display: flex;
+flex-direction: column;
+background-color: #F5F5F5;
+max-width: 50vw;
+}
+
+#BigKliv{
+display: flex;
+flex-direction: column;
+background-color: #152237;
+}
+
+#BigKlivImg{
+  max-width: 430px;
+  max-height: 155px;
+}
+
+/*5th section.*/
+#Form{
+  display: flex;
+  flex-direction: column;
+  padding-left:172px;
+  padding-right: 172px;
+  color: white;
+  justify-items: center;
+}
+
+.Form{
+  background-color: #152237;
+  border: none;
+  padding: 8px 22px 9px 18px;
+}
+
+#NameMail{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-bottom: 56px;
+}
+
+#TextArea{
+  background-color: #152237;
+  border: none;
+  margin-bottom: 54px;
+}
+
+#Send{
+  background-color: #44DD8A;
+  border: none;
+  border-radius: 6px;
+  max-width: 351px;
+  max-height: 45px;
+  padding: 12px 43px 12px 43px;
+  margin-bottom: 77px;
+}
+
+/* Footer Here */
+#Footer{
+  background-color: #152237;
 }

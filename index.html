@@ -6,7 +6,10 @@
   <title>Klivio</title>
   <meta name='viewport' content='width=device-width, initial-scale=1'>
   <link rel='stylesheet' type='text/css' media='screen' href='/main.css'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body id="body">
@@ -282,34 +285,47 @@
           </div>
       </div>
   </section>
-    <h2>A propos de Klivio</h2>
+
+  <section id="FifthSec">
     <div id="APropKliv">
-      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, iure eveniet! Sapiente quibusdam fugiat ipsam id aliquam<br>
-        facilis voluptatibus maxime velit delectus sit quidem, placeat sunt officiis aspernatur voluptates possimus!<br>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos commodi voluptate laboriosam ex vero, sit explicabo non ipsa.<br>
-      Ducimus, sequi optio numquam nam assumenda nisi ipsa dolore! Consequuntur, doloribus deserunt.
-      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum, iure eveniet! Sapiente quibusdam fugiat ipsam id aliquam<br>
-        facilis voluptatibus maxime velit delectus sit quidem, placeat sunt officiis aspernatur voluptates possimus!<br>
-      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eos commodi voluptate laboriosam ex vero, sit explicabo non ipsa.<br>
-      Ducimus, sequi optio numquam nam assumenda nisi ipsa dolore! Consequuntur, doloribus deserunt.</p>
+      <h2>A propos de Klivio</h2>
+        <p>Chez Klivio, nous défendons des valeurs fondamentales qui définissent notre<br>
+          approche éducative. Nous nous engageons à assurer une rémunération<br> 
+          équitable pour les créateurs de contenu, reconnaissant la qualité de leur<br>
+          travail.<br>
+        </p>
+
+        <p>
+          Favorisant l'autonomie d'apprentissage, notre plateforme offre la flexibilité<br> 
+          nécessaire pour explorer divers sujets. La transparence est au cœur de notre<br> 
+          démarche, garantissant une clarté totale sur les formations que les<br>
+          instructeurs proposent. Ensemble, ces valeurs forment le socle d'une<br>
+          éducation enrichissante et équitable, guidant notre mission d'offrir des<br> 
+          opportunités d'apprentissage de qualité.
+        </p>
     </div>
     <div id="BigKliv">
-      <img src="" alt="">
+      <img src="./ressources/png blanc 1.png" alt="Klivio Logo" id="BigKlivImg">
     </div>
+  </section>
+
   <section>
     <h2>Nous contacter</h2>
-    <form>
-      <input type="text" value="Nom">
-      <input type="text" value="Email">
-      <textarea name="Votre Message" rows="15" cols="60">Votre message</textarea>
-      <input type="submit" value="Envoyer">
+    <form id="Form">
+      <div id="NameMail">
+      <input type="text" value="Nom" class="Form">
+      <input type="text" value="Email" class="Form">
+      </div>
+      <textarea name="Votre Message" rows="15" cols="60" id="TextArea">Votre message</textarea>
+      <input type="submit" value="Envoyer" id="Send">
     </form>
   </section>
 </main>
-<footer>
-  <div>
+
+<footer id="Footer">
+
     <div>
-      <img src="" alt="Logo Klivio">
+      <img src="./ressources/png blanc 1.png" alt="Logo Klivio">
       <h4>Mention légales</h4>
       CGU
       CGV
@@ -340,7 +356,6 @@
       <img src="" alt="Instagram">
       <img src="" alt="Linkedin">
     </div>
-  </div>
 
 </footer>
 </body>
