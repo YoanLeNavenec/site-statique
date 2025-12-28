@@ -414,13 +414,10 @@ width: 50vw;
 }
 
 /*6th section.*/
-
 #Form{
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  padding-left:172px;
-  padding-right: 172px;
   color: white;
 }
 
@@ -435,12 +432,16 @@ width: 50vw;
   flex-direction: row;
   justify-content: space-between;
   padding-bottom: 56px;
+  margin-left:172px;
+  margin-right: 172px;
 }
 
 #TextArea{
   background-color: #152237;
   border: none;
   margin-bottom: 54px;
+  margin-left:172px;
+  margin-right: 172px;
 }
 
 #Send{
@@ -535,6 +536,11 @@ margin-bottom: 12px;
   display: flex;
   flex-direction: row;  
   justify-content: space-evenly;
+}
+
+.LogoContact{
+  width: 24px;
+  height: 24px;
 }
 
 .LogoFooter{
